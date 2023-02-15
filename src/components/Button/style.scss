@@ -1,0 +1,17 @@
+.btn {
+    background-color: rgba($color: #474747, $alpha: 1.0);
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px;
+
+    &.disabled {
+        visibility: hidden;
+    }
+}
+
+div.btn {
+    visibility: hidden;
+}
